@@ -4,3 +4,4 @@ package-lock.json
 *.gz
 
 db/conn.js
+.env
