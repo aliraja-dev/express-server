@@ -37,7 +37,7 @@ router.route("/record/:id").get(function (req, res) {
 router.route("/record/add").post(function (req, response) {
     let db_connect = dbo.getDb();
     let myobj = {
-        user: req.body.user,
+        // user: req.body.user,
         post: req.body.post,
         modified: new Date()
     };
